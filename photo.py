@@ -9,7 +9,7 @@ def clear_all_metadata(image_path, output_path=None):
         clean_img = Image.new(img.mode, img.size)
         clean_img.putdata(data)
         output = output_path or image_path
-        clean_img.save(output)
+        clean_img.save(output,optimize=True,progressive=True)
 
 def browse_files_bulk():
     filetypes = [
@@ -49,3 +49,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
