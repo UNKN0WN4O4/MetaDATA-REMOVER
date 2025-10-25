@@ -2,7 +2,7 @@
 REMOVE METADATA IN YOUR LOCAL MACHINE WITH EASE :)
 
 
-STEP 1)-> Extract using 7zip
+STEP 1)-> Download the file
 
 
 
